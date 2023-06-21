@@ -1,0 +1,26 @@
+<form name="formb" method="post" action="recherchlivre.php" style="margin: auto; width: 620px;padding-top: 100px;">
+    <fieldset>
+        <legend>Rechercher livre</legend> 
+    <table style="margin: auto;">
+        Veuillez selectionner un critere de recherche:
+    <tr>
+    <td width="37%">Critere</td>
+    <td width="63%">
+        <select name="selectlivre">
+            <option value="CodeLivre">CodeLivre</option>
+            <option value="Titre">Titre</option>
+            <option value="Auteur">Auteur</option>
+            <option value="DateEdition">Date</option>
+        </select>
+    </td></br>
+    </tr>
+    <tr>
+        <td width="37%">Valeur</td>
+        <td width="63%"><input name="val" type="text"></td>
+    <tr>
+        <td><input type="reset" name="Annuler" value="Annuler"></td>
+        <td><input type="submit" name="Rechercher" value="Rechercher"></td>
+    </tr>
+    </table>
+</fieldset>
+    </form>
